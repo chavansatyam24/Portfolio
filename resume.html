@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Satyam Chavan - Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0.25in 0.4in 0.25in 0.4in;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 8.8pt;
+      line-height: 1.26;
+      color: #111111;
+      background-color: #ffffff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    
+    /* Header Styles */
+    .header {
+      text-align: center;
+      margin-bottom: 9px;
+    }
+    .name {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+      margin-bottom: 3px;
+      color: #000000;
+    }
+    .contact-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      font-size: 8.8pt;
+      color: #111111;
+      margin-bottom: 2px;
+      white-space: nowrap;
+    }
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      text-decoration: none;
+      color: #111111;
+    }
+    .contact-item svg {
+      width: 11px;
+      height: 11px;
+      fill: #111111;
+    }
+    .separator {
+      color: #555555;
+      font-weight: 400;
+    }
+    .location {
+      font-size: 8.8pt;
+      color: #111111;
+    }
+
+    /* Section Styles */
+    .section {
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: 10.2pt;
+      font-weight: 700;
+      color: #000000;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #666666;
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .portfolio-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 8.5pt;
+      font-weight: 600;
+      color: #000000;
+      border: 1px solid #222222;
+      border-radius: 3px;
+      padding: 0px 4px;
+      text-decoration: none;
+    }
+    .portfolio-badge svg {
+      width: 10px;
+      height: 10px;
+      fill: #000000;
+    }
+
+    /* Skills Grid */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .skills-table td {
+      padding: 1px 0;
+      vertical-align: top;
+      font-size: 8.7pt;
+    }
+    .skill-category {
+      font-weight: 700;
+      width: 105px;
+      color: #000000;
+    }
+    .skill-list {
+      color: #111111;
+    }
+
+    /* Items layout (Edu / Exp / Projects) */
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .item-title {
+      font-weight: 700;
+      font-size: 9.1pt;
+      color: #000000;
+    }
+    .item-subtitle {
+      font-style: italic;
+      font-size: 8.7pt;
+      color: #222222;
+      margin-bottom: 2px;
+    }
+    .item-meta {
+      font-size: 8.7pt;
+      color: #000000;
+      white-space: nowrap;
+    }
+    .item-location {
+      font-size: 8.7pt;
+      color: #000000;
+    }
+
+    /* Bullets */
+    ul.bullet-list {
+      list-style-type: disc;
+      padding-left: 14px;
+      margin-top: 1px;
+      margin-bottom: 2px;
+    }
+    ul.bullet-list li {
+      margin-bottom: 1.8px;
+      font-size: 8.6pt;
+      line-height: 1.25;
+      color: #111111;
+    }
+
+    /* Link Icon */
+    .link-icon svg {
+      width: 10px;
+      height: 10px;
+      fill: #000000;
+      margin-left: 3px;
+      vertical-align: middle;
+    }
+
+    b, strong {
+      font-weight: 700;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="name">Satyam Chavan</div>
+    <div class="contact-bar">
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        +91-7249736430
+      </span>
+      <span class="separator">|</span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        satyamchavan240@gmail.com
+      </span>
+      <span class="separator">|</span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.78a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+        linkedin.com/in/satyam-chavan
+      </span>
+      <span class="separator">|</span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+        github.com/chavansatyam24
+      </span>
+    </div>
+    <div class="location">Mumbai, Maharashtra, India</div>
+  </div>
+
+  <!-- Professional Summary -->
+  <div class="section">
+    <div class="section-title">
+      <span>Professional Summary</span>
+      <span class="portfolio-badge">
+        <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+        Portfolio
+      </span>
+    </div>
+    <p style="font-size: 8.8pt; color: #111111; line-height: 1.3;">
+      Full Stack JavaScript Developer with hands-on experience building <b>business applications using the MERN stack</b>. Skilled in <b>Node.js, Express.js, React.js, MongoDB, RESTful APIs, and third-party integrations</b>.
+    </p>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-category">Languages:</td>
+        <td class="skill-list">JavaScript (ES6+), TypeScript, Python, SQL</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Frontend:</td>
+        <td class="skill-list">React.js, Redux Toolkit, Context API, HTML5, CSS3, Responsive Design</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Backend:</td>
+        <td class="skill-list">Node.js, Express.js, RESTful APIs, JWT Authentication, RBAC, Webhooks, Cron Jobs</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Databases:</td>
+        <td class="skill-list">MongoDB, Mongoose, MySQL, PostgreSQL</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Tools & DevOps:</td>
+        <td class="skill-list">Git, GitHub, Bitbucket, Postman, Jira, Docker, AWS S3, AWS EC2, GitHub Actions</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="item-header">
+      <span class="item-title">Viva Institute of Technology</span>
+      <span class="item-location">Virar, Maharashtra</span>
+    </div>
+    <div class="item-header" style="margin-top: 1px;">
+      <span class="item-subtitle">Master of Computer Applications <b>(CGPA: 7.5)</b></span>
+      <span class="item-meta">Aug 2024 – Jun 2026</span>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+    <div class="item-header">
+      <span class="item-title">Binny’s Jewellery Private Limited</span>
+      <span class="item-meta">Jan 2026 – Oct 2026</span>
+    </div>
+    <div class="item-subtitle">Junior MERN Stack Developer</div>
+    <ul class="bullet-list">
+      <li>Developed <b>MERN-based ERP modules</b> for inventory, client, and order management, supporting <b>2,000+ clients</b> and <b>1,000+ product SKUs</b>.</li>
+      <li>Built <b>Node.js and Express.js backend services and RESTful APIs</b> supporting business workflows for <b>2 user roles</b>, with data validation, authentication, and authorization.</li>
+      <li>Implemented <b>JWT Authentication and Role-Based Access Control (RBAC)</b> across Admin and Client workflows, securing permission-based access to business data and application features.</li>
+      <li>Optimized <b>MongoDB queries and Aggregation Pipelines</b> for data retrieval and processing across workflows handling <b>1,000+ product SKUs</b>.</li>
+      <li>Integrated <b>Webhooks, cron jobs, and third-party services to automate 10+ business workflows</b>, enabling event-driven processing and reliable data synchronization.</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div style="margin-bottom: 5px;">
+      <div class="item-header">
+        <span class="item-title">
+          Aira AR Agent – MERN Stack
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
+          </span>
+        </span>
+      </div>
+      <ul class="bullet-list">
+        <li>Built a <b>MERN-based Accounts Agent platform</b> for automated WhatsApp debt collection, customer engagement, and receivables workflow management.</li>
+        <li>Developed backend workflows using <b>Node.js, Express.js, Webhooks, cron jobs, and MongoDB Aggregation Pipelines</b> for real-time event processing and scheduled payment follow-ups.</li>
+      </ul>
+    </div>
+
+    <div style="margin-bottom: 5px;">
+      <div class="item-header">
+        <span class="item-title">
+          AI-Powered Online Exam Proctoring System
+          <span class="link-icon">
+            <svg viewBox="0 0 24 24"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
+          </span>
+        </span>
+      </div>
+      <ul class="bullet-list">
+        <li>Engineered an <b>AI-powered online exam proctoring system</b> using Computer Vision, OpenCV, Deep Learning, and Speech Recognition for real-time candidate authentication and behavioral monitoring.</li>
+        <li>Designed a <b>multi-layer anti-cheating pipeline</b> that detects <b>5 anomaly types</b>: multiple-person presence, candidate absence, unauthorized speech, mobile phone use, and tab switching.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="item-header">
+        <span class="item-title">Track App – Internal Business Tracking Mobile Application — React Native</span>
+      </div>
+      <ul class="bullet-list">
+        <li>Built a <b>React Native mobile application</b> for Binny’s Jewellery to monitor and manage outstanding receivables and payables across daily business operations.</li>
+        <li>Implemented <b>5 core modules – Search, Dues, Work in Progress (WIP), Orders, and Quotes</b> – to centralize financial tracking, work management, order processing, and quotation visibility.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <ul class="bullet-list">
+      <li><b>Claude Code in Action</b> – Anthropic Academy</li>
+    </ul>
+  </div>
+
+</body>
+</html>
